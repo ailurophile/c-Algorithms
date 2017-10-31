@@ -1,8 +1,8 @@
-/* Prgram to recover pictures from camera memory card with FAT file system*/
+/* Program to recover pictures from camera memory card with FAT file system*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include <cs50.h>
+#include <stdbool.h>
 
 #define BLOCKSIZE  512
 
